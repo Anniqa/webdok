@@ -81,6 +81,15 @@ body, html {
     padding: 1.2%;
     background-color:slategray;
 }
+
+#s5 {
+    border: 6px solid white;
+    align-self: center;
+    margin-top: 2%;
+    padding: 1.2%;
+    background-color: white;
+    text-align: center;
+}
 * {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
 .mySlides {display: none;}
