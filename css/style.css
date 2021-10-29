@@ -40,18 +40,47 @@ body, html {
     font-family:  Helvetica, sans-serif;
     font-size: 35px
 }
-
 #s2 {
     border: 6px solid slategray;
     align-self: center;
-
     margin-top: 2%;
     padding: 1.2%;
     background-color:slategray;
 }
 
+#s3 {
+    border: 3px white;
+    align-self: center;
+    text-align: center;
+    margin-top: 2%;
+    padding: 1.2%;
+    background-color:white;
+    font-family:  Helvetica, sans-serif;
+    font-size: 35px;
 
+}
+.flex-container {
+    display: flex;
+    background-color:white;
+  }
+        .flex-container > div {
+            background-color: #f1f1f1;
+            margin: 30px;
+            padding: 100px;
+            height: 300px;
+            font-size: 30px;
+            text-align: center;
+    
+          }
+  
 
+#s4 {
+    border: 6px solid slategray;
+    align-self: center;
+    margin-top: 2%;
+    padding: 1.2%;
+    background-color:slategray;
+}
 * {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
 .mySlides {display: none;}
