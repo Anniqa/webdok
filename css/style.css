@@ -29,7 +29,9 @@ body, html {
   font-size: 50px;
   text-align: center;
 }
-
+.p{
+  font-family: "Lucida Console", "Courier New", monospace; 
+}
 #s1 {
     border: 3px white;
     align-self: center;
