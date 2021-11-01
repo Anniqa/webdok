@@ -77,7 +77,8 @@ body, html {
     font-size: 35px;
 
 }
-.flex-container {
+
+.flex-container{
     display: flex;
   
   }
