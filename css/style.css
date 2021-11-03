@@ -2,28 +2,22 @@ body, html {
     height: 100%;
 }
 
-/* The hero image */
-.image {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image:  url(/images/klankefterskole.png);
-
-  /* Set a specific height */
-  height: 27%;
-  width: 100%;
-
-  /* Position and center the image to scale nicely on all screens */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+p {
+  padding: 2%;
 }
+
+
+
+
+
+
 /* The hero image */
 .image1 {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image:  url(/images/dans1.jpg);
+  background-image:  url(/images/forside.png);
 
   /* Set a specific height */
-  height: 50%;
+  height: 80%;
   width: 100%;
 
   /* Position and center the image to scale nicely on all screens */
