@@ -40,9 +40,9 @@ $('#topPauseButton').click(function(){
 
 //Function til at afspille lydinterview når man hover over billederne, og pause dem når man ikke gør
 let student = [
-    '#arthur',
-    '#amy',
-    '#sofus'
+    '#naja',
+    '#mia',
+    '#martin'
 ];
 
 let soundInterview = [
@@ -52,7 +52,7 @@ let soundInterview = [
 ];
 
 let studentPic = [
-    $('#arthurPic'),
+    $('#naja'),
     $('#amyPic'),
     $('#sofusPic')
 ];

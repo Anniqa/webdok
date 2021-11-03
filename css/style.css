@@ -2,28 +2,22 @@ body, html {
     height: 100%;
 }
 
-/* The hero image */
-.image {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image:  url(/images/klankefterskole.png);
-
-  /* Set a specific height */
-  height: 27%;
-  width: 100%;
-
-  /* Position and center the image to scale nicely on all screens */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+p {
+  padding: 2%;
 }
+
+
+
+
+
+
 /* The hero image */
 .image1 {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image:  url(/images/dans1.jpg);
+  background-image:  url(/images/forside.png);
 
   /* Set a specific height */
-  height: 50%;
+  height: 80%;
   width: 100%;
 
   /* Position and center the image to scale nicely on all screens */
@@ -78,19 +72,45 @@ body, html {
 
 }
 
-.flex-container{
-    display: flex;
-  
-  }
-        .flex-container > div {
-            background-color: #f1f1f1;
-            margin: 30px;
-            padding: 100px;
-            height: 300px;
-            font-size: 30px;
-            text-align: center;
-    
-          }
+.container {
+  position: relative;
+  width: 30%;
+}
+
+.image2 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
   
 
 #s4 {
