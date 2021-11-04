@@ -98,7 +98,7 @@ p {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: darkcyan;
+  background-color: salmon;
 }
 
 .container:hover .overlay {
@@ -106,8 +106,8 @@ p {
 }
 
 .text {
-  color: white;
-  font-size: 5px;
+  color:black;
+  font-size: 50%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -115,6 +115,7 @@ p {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+  line-height: 130%;
 }
   
 
@@ -138,19 +139,6 @@ img {vertical-align: middle;}
   position: relative;
   margin: auto;
   margin-top: 25%;
-}
-
-/* Caption text */
-.text {
-  color: #000000;
-  text-shadow: 2px 2px gray;
-  font-size: 90px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 400px;
-  width: 100%;
-  text-align: center;
-
 }
 
 
