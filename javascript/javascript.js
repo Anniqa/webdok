@@ -14,7 +14,7 @@ function showSlides() {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
+  setTimeout(showSlides, 4000); // Change image every 4 seconds
 }
   //Videoer og mute ikoner gemt i array
   let ourVideos = [
@@ -22,37 +22,8 @@ function showSlides() {
     document.getElementById('pictureVideo')
 ];
 
-let muteIcon = [
-    '<img src="img/soundOn.svg" alt="sound icon">',
-    '<img src="img/soundOff.svg" alt="sound icon">'
-]
-
-//Knap function til at pause og spille stemnings videoen med tekst og lyd
-$('#topPauseButton').click(function(){
-    if (ourVideos[0].paused) {
-        ourVideos[0].play();
-        $('#topPauseButton').html(muteIcon[0]);
-    } else {
-        ourVideos[0].pause();
-        $('#topPauseButton').html(muteIcon[1]);
-    }
-});
-
-//Function til at afspille lydinterview når man hover over billederne, og pause dem når man ikke gør
-let student = [
-    '#naja',
-    '#mia',
-    '#martin'
-];
-
-let soundInterview = [
-    document.getElementById('arthurSound'),
-    document.getElementById('amySound'),
-    document.getElementById('sofusSound')
-];
-
 let studentPic = [
-    $('#naja'),
+    $('#arthurPic'),
     $('#amyPic'),
     $('#sofusPic')
 ];
@@ -108,3 +79,44 @@ $(student[2]).mouseout(function(){
 // ... din kode slut ...
 
 // denne line må ikke slettes
+
+ // Array slideshow
+ var arr = ['Mangfoldighed', 'Fællesskab', 'Personlig udvikling', 'Respekt', 'Personlig integritet', 'Tryghed'];
+ var i = 0;
+ var heading = document.querySelector('#heading');
+
+ function slide() {
+     // rækker efter class i HTML
+     heading.innerHTML = arr[i];
+     // opacity til 1
+     heading.style.opacity = 1;
+
+     // efter 2 sekunder kalder næste element i array
+     setTimeout(next, 2000);
+ }
+
+ function next() {
+     // formindske index for næste element i array
+     i++;
+
+     if (i > arr.length - 1) {
+         i = 0;
+     }
+
+     // opacity til 0
+     heading.style.opacity = 0;
+
+     // efter 1 sekund kalder slide fn igen
+     setTimeout(slide, 1000);
+ }
+
+ slide();
+
+ // Footer
+ let runAnimation = function () {
+    animation.classList.add("animate");
+    // Starter funktionen efter et delay på 4000 millisekunder
+    setTimeout(clearClass, 4000);
+}
+// Start animationen ved scroll
+window.addEventListener("scroll", runAnimation);
