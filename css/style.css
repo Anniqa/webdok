@@ -4,6 +4,7 @@ body, html {
 
 p {
   padding: 2%;
+  line-height: 50px;
 }
 
 
@@ -14,11 +15,11 @@ p {
 /* The hero image */
 .image1 {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image:  url(/images/forside.png);
+  background-image:  url(/images/251873582_261518679264719_7613915204823936796_n.png);
 
   /* Set a specific height */
-  height: 80%;
   width: 100%;
+  height: 100%;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
@@ -75,6 +76,10 @@ p {
 .container {
   position: relative;
   width: 30%;
+  height: 100%;
+  float: left;
+  padding: 2%;
+  margin-left: 2%;
 }
 
 .image2 {
@@ -93,7 +98,7 @@ p {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: salmon;
 }
 
 .container:hover .overlay {
@@ -101,8 +106,8 @@ p {
 }
 
 .text {
-  color: white;
-  font-size: 5px;
+  color:black;
+  font-size: 50%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -110,6 +115,7 @@ p {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+  line-height: 130%;
 }
   
 
@@ -121,14 +127,7 @@ p {
   
 }
 
-#s5 {
-    border: 6px solid white;
-    align-self: center;
-    margin-top: 2%;
-    padding: 1.2%;
-    background-color: white;
-    text-align: center;
-}
+
 * {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
 .mySlides {display: none;}
@@ -139,18 +138,21 @@ img {vertical-align: middle;}
   max-width: 1000px;
   position: relative;
   margin: auto;
+  margin-top: 25%;
 }
+
 
 /* Caption text */
 .text {
   color: #000000;
-  text-shadow: 2px 2px gray;
-  font-size: 90px;
-  padding: 8px 12px;
+
+  font-size: 20px;
+  padding: 6px 12px;
   position: absolute;
   bottom: 400px;
   width: 100%;
   text-align: center;
+  margin-top: -90px;
 
 }
 
@@ -211,7 +213,7 @@ img {vertical-align: middle;}
 }
 
 #soundInterview img {
-  width: 90%;
+  width: 100%;
 }
 
 #soundInterview p {
@@ -222,4 +224,59 @@ img {vertical-align: middle;}
 }
 .wirePic {
   width: 100%;
+}
+
+.arrow {
+  width: 50px;
+  position: relative;
+  top: 15px;
+}
+
+/* Array slideshow */
+#heading {
+  font-size: 50px;
+  opacity: 0;
+  transition: opacity 1s linear;
+}
+
+h6 {
+  font-size: 34px;
+  font-family: Verdana, Geneva, sans-serif;
+  text-align: center;
+  margin: 30px;
+}
+
+.array p {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  margin: 16px;
+  line-height: 1.5;
+}
+
+#skilt {
+  width: 300px;
+  margin-left: 480px;
+}
+
+.bike {
+  width: 350px;
+}
+
+@keyframes example {
+  from {
+      transform: translateX(-350px)
+  }
+
+  to {
+      transform: translateX(1450px)
+  }
+}
+
+/* Class kaldes og arbejdes videre med i javascript */
+.animate {
+  position: relative;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
 }
