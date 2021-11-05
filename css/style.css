@@ -8,10 +8,6 @@ p {
 }
 
 
-
-
-
-
 /* The hero image */
 .image1 {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
@@ -62,12 +58,12 @@ p {
 }
 
 #s3 {
-    border: 3px white;
+    border: 3px  rgb(103, 138, 255);
     align-self: center;
     text-align: center;
     margin-top: 2%;
-    padding: 1.2%;
-    background-color:white;
+    padding: 0.1%;
+ 
     font-family:  Helvetica, sans-serif;
     font-size: 35px;
 
@@ -80,33 +76,41 @@ p {
   float: left;
   padding: 2%;
   margin-left: 2%;
+ 
 }
 
 .image2 {
   display: block;
-  width: 100%;
+  width: 120%;
   height: auto;
+  padding: 15px;
+ margin: -15px;
+  border-radius: 20px;
+
+
 }
 
 .overlay {
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 0;
-  right: 0;
+  right: -20px;
   height: 100%;
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: salmon;
+  background-color: rgb(192, 197, 214);
+  border-radius: 20px;
 }
+
+
 
 .container:hover .overlay {
   opacity: 1;
 }
 
 .text {
-  color:black;
+  color: black;
   font-size: 50%;
   position: absolute;
   top: 50%;
@@ -124,7 +128,7 @@ p {
     align-self: center;
     margin-top: 2%;
     padding: 1.2%;
-  
+
 }
 
 
@@ -144,9 +148,9 @@ img {vertical-align: middle;}
 
 /* Caption text */
 .text {
+  text-shadow: 1.5px 1.5px 8px white;
   color: #000000;
-
-  font-size: 20px;
+  font-size: 25px;
   padding: 6px 12px;
   position: absolute;
   bottom: 400px;
@@ -161,7 +165,8 @@ img {vertical-align: middle;}
 .dot {
   height: 15px;
   width: 15px;
-  margin: 0 2px;
+  margin: 0 5px;
+  margin-top: 30px;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
@@ -259,10 +264,6 @@ h6 {
   margin-left: 480px;
 }
 
-.bike {
-  width: 350px;
-}
-
 @keyframes example {
   from {
       transform: translateX(-350px)
@@ -277,6 +278,7 @@ h6 {
 .animate {
   position: relative;
   animation-name: example;
-  animation-duration: 5s;
+  animation-duration: 10s;
   animation-iteration-count: infinite;
+
 }
