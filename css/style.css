@@ -8,10 +8,6 @@ p {
 }
 
 
-
-
-
-
 /* The hero image */
 .image1 {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
@@ -67,7 +63,7 @@ p {
     text-align: center;
     margin-top: 2%;
     padding: 0.1%;
-  
+ 
     font-family:  Helvetica, sans-serif;
     font-size: 35px;
 
@@ -132,7 +128,7 @@ p {
     align-self: center;
     margin-top: 2%;
     padding: 1.2%;
-  
+
 }
 
 
@@ -268,10 +264,6 @@ h6 {
   margin-left: 480px;
 }
 
-.bike {
-  width: 350px;
-}
-
 @keyframes example {
   from {
       transform: translateX(-350px)
@@ -286,6 +278,7 @@ h6 {
 .animate {
   position: relative;
   animation-name: example;
-  animation-duration: 5s;
+  animation-duration: 10s;
   animation-iteration-count: infinite;
+
 }
