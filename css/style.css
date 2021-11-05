@@ -56,19 +56,67 @@ p {
     padding: 1.2%;
     background-color:slategray;
 }
+#s7 {
+  align-self: center;
+  text-align: center;
+  margin-top: 2%;
+  padding: 0.1%;
+  font-family:  Helvetica, sans-serif;
+  font-size: 35px;
 
+}
 #s3 {
-    border: 3px  rgb(103, 138, 255);
     align-self: center;
     text-align: center;
     margin-top: 2%;
     padding: 0.1%;
- 
     font-family:  Helvetica, sans-serif;
     font-size: 35px;
 
 }
+.text3 {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
 
+.text3 {
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  font-size: 5rem;
+  background: linear-gradient(to bottom, black,black  60%,black 60%,black 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  transition: background 0.2s ease-out;
+  white-space: nowrap;
+}
+
+.deko {
+  position: relative;
+}
+
+.deko:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 20px;
+  background:rgba(118, 147, 241, 0.411);
+  bottom: 5px;
+  transition: all 0.2s ease-out;
+}
+
+.text3:hover {
+  background-position: 0 11px;
+}
+
+.deko:hover:before {
+  transform: translateY(10px)
+}
 .container {
   position: relative;
   width: 30%;
@@ -87,7 +135,6 @@ p {
  margin: -15px;
   border-radius: 20px;
 
-
 }
 
 .overlay {
@@ -102,8 +149,6 @@ p {
   background-color: rgb(192, 197, 214);
   border-radius: 20px;
 }
-
-
 
 .container:hover .overlay {
   opacity: 1;
