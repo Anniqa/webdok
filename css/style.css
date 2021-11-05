@@ -62,12 +62,12 @@ p {
 }
 
 #s3 {
-    border: 3px white;
+    border: 3px  rgb(103, 138, 255);
     align-self: center;
     text-align: center;
     margin-top: 2%;
-    padding: 1.2%;
-    background-color:white;
+    padding: 0.1%;
+  
     font-family:  Helvetica, sans-serif;
     font-size: 35px;
 
@@ -80,6 +80,7 @@ p {
   float: left;
   padding: 2%;
   margin-left: 2%;
+ 
 }
 
 .image2 {
@@ -89,6 +90,7 @@ p {
   padding: 15px;
  margin: -15px;
   border-radius: 20px;
+
 
 }
 
@@ -101,7 +103,7 @@ p {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: rgb(227, 255, 103);
+  background-color: rgb(192, 197, 214);
   border-radius: 20px;
 }
 
@@ -112,7 +114,7 @@ p {
 }
 
 .text {
-  color:black;
+  color: black;
   font-size: 50%;
   position: absolute;
   top: 50%;
@@ -150,9 +152,9 @@ img {vertical-align: middle;}
 
 /* Caption text */
 .text {
+  text-shadow: 1.5px 1.5px 8px white;
   color: #000000;
-
-  font-size: 20px;
+  font-size: 25px;
   padding: 6px 12px;
   position: absolute;
   bottom: 400px;
@@ -167,7 +169,8 @@ img {vertical-align: middle;}
 .dot {
   height: 15px;
   width: 15px;
-  margin: 0 2px;
+  margin: 0 5px;
+  margin-top: 30px;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
