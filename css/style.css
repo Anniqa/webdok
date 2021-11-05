@@ -95,11 +95,11 @@ p {
   white-space: nowrap;
 }
 
-span {
+.deko {
   position: relative;
 }
 
-span:before {
+.deko:before {
   content: "";
   position: absolute;
   left: 0;
@@ -107,14 +107,14 @@ span:before {
   height: 20px;
   background:rgba(118, 147, 241, 0.411);
   bottom: 5px;
-  transition: all 0.4s ease-out;
+  transition: all 0.2s ease-out;
 }
 
 .text3:hover {
   background-position: 0 11px;
 }
 
-span:hover:before {
+.deko:hover:before {
   transform: translateY(10px)
 }
 .container {
