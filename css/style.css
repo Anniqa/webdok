@@ -47,6 +47,9 @@ p {
     background-color:white;
     font-family:  Helvetica, sans-serif;
     font-size: 35px;
+    background-image: url(/images/red.png);
+    background-repeat: no-repeat;
+
 
 }
 #s2 {
@@ -350,11 +353,34 @@ h6 {
   margin: 16px;
   line-height: 1.5;
 }
-
 #skilt {
   width: 300px;
-  margin-left: 480px;
+position: center;
+margin-left: 550px;
+
+  
 }
+.button {
+  border: none;
+  color: solid, 2px black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-left: 550px;
+  margin-top: 25px;
+}
+
+.button1 {
+  background-color: darkcyan;
+right: -40px;
+  position: relative;
+
+} /* color */
 
 @keyframes example {
   from {
