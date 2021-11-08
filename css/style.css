@@ -47,6 +47,9 @@ p {
     background-color:white;
     font-family:  Helvetica, sans-serif;
     font-size: 35px;
+    background-image: url(/images/red.png);
+    background-repeat: no-repeat;
+
 
 }
 #s2 {
