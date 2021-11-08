@@ -245,35 +245,78 @@ img {vertical-align: middle;}
   .text {font-size: 11px}
 }
 
-#soundInterviewArticle {
-  background-image: url(../img/wall-texture-20opacity.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+/* sektion 4 omkring elever */
 
-#soundInterview {
-  margin-top: -60px;
-  padding-bottom: 3em;
+#div_sektion4 {
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10%;
 }
 
-#soundInterview section {
-  width: 20%;
-}
-
-#soundInterview img {
-  width: 100%;
-}
-
-#soundInterview p {
-  font-size: 1.6em;
-  padding: 0.3em;
+#sektion4 {
+  font-size: 180%;
+  margin-right: 20px;
   text-align: center;
-  font-style: italic;
 }
-.wirePic {
-  width: 100%;
+
+.lyt-til-eleverne {
+  text-align: center;
+}
+
+#speaker {
+  width: 50px;
+  height: 60px;
+  padding-top: 22px;
+  text-align: center;
+}
+
+#elever img {
+  min-width: 350px;
+}
+
+.img_elev {
+  width: 10%; 
+  height: auto;
+  margin-left: 40%;
+  padding: 4%;
+}
+
+.navn {
+  margin-left: 40%;
+}
+
+
+#play1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#play2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#play3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#play4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#elever {
+  display: flex;
+  flex-direction: row;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  
 }
 
 .arrow {
@@ -284,7 +327,7 @@ img {vertical-align: middle;}
 
 /* Array slideshow */
 #heading {
-  font-size: 50px;
+  font-size: 30px;
   opacity: 0;
   transition: opacity 1s linear;
 }
