@@ -1,4 +1,4 @@
-var slideIndex = 0;
+var slideIndex = 0; // Diashow kode i java
 showSlides();
 function showSlides() {
   var i;
