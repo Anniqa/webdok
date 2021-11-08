@@ -44,41 +44,59 @@ function resetPic (picToReset) {
     });
 }
 
-//Arthur interview
-$(student[0]).mouseover(function(){
-    soundInterview[0].play();
-    picAnimation(studentPic[0]);
-});
-$(student[0]).mouseout(function(){
-    soundInterview[0].pause();
-    resetPic(studentPic[0]);
-});
+// start audio/lyd fra hiphopeleverne på skolen
 
-//Amy interview
-$(student[1]).mouseover(function(){
-    soundInterview[1].play();
-    picAnimation(studentPic[1]);
-});
-$(student[1]).mouseout(function(){
-    soundInterview[1].pause();
-    resetPic(studentPic[1]);
-});
 
-//Sofus interview
-$(student[2]).mouseover(function(){
-    soundInterview[2].play();
-    picAnimation(studentPic[2]);
-});
-$(student[2]).mouseout(function(){
-    soundInterview[2].pause();
-    resetPic(studentPic[2]);
-});
+    //Naja
+    document.getElementById('play1').addEventListener('click', function (e) {
+        e.preventDefault();
+        document.getElementById('audio1');
+        if (audio1.paused) {
+            audio1.play();
+        } else {
+            audio1.pause();
+        }
+
+    });
 
 
 
-// ... din kode slut ...
+    //Mia
 
-// denne line må ikke slettes
+    document.getElementById('play2').addEventListener('click', function (e) {
+        e.preventDefault();
+        document.getElementById('audio2');
+        if (audio2.paused) {
+            audio2.play();
+        } else {
+            audio2.pause();
+        }
+
+    });
+
+
+    //Martin
+
+    document.getElementById('play3').addEventListener('click', function (e) {
+        e.preventDefault();
+        document.getElementById('audio3');
+        if (audio3.paused) {
+            audio3.play();
+        } else {
+            audio3.pause();
+        }
+
+    });
+
+
+    //slut audio/lyd fra eleverne på hiphoplinjen
+
+    // start hide/show <p> when clicked on
+    $('h2').click(function () {
+        $('p').toggle(0);
+    });
+
+    // slut hide/show <p> when clicked on
 
  // Array slideshow
  var arr = ['Mangfoldighed', 'Fællesskab', 'Personlig udvikling', 'Respekt', 'Personlig integritet', 'Tryghed'];
