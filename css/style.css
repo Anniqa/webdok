@@ -90,7 +90,7 @@ p {
   cursor: pointer;
   position: relative;
   display: inline-block;
-  font-size: 5rem;
+  font-size: 50px;
   background: linear-gradient(to bottom, black,black  60%,black 60%,black 100%);
   background-clip: text;
   -webkit-background-clip: text;
