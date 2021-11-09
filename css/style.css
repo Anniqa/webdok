@@ -4,7 +4,10 @@ body, html {
     
 
 }
-
+#footer
+{
+  background-color: plum;
+}
 
 p {
   padding: 2%;
@@ -26,11 +29,11 @@ p {
     text-align: center;
     margin-top: 2%;
     padding: 1.2%;
-    background-color:white;
     font-family:  Helvetica, sans-serif;
     font-size: 35px;
     background-image: url(/images/light-color.png);
     background-repeat: no-repeat;
+    background-color:dodgerblue;
 
 
 }
@@ -42,6 +45,7 @@ p {
   padding: 0.1%;
   font-family:  Helvetica, sans-serif;
   font-size: 35px;
+  background-color: blueviolet;
 
 }
 #s3 {
@@ -50,6 +54,7 @@ p {
     padding: 0.1%;
     font-family:  Helvetica, sans-serif;
     font-size: 35px;
+   
 
 }
 
@@ -153,6 +158,8 @@ p {
    
     align-self: center;
     padding: 1.2%;
+  
+   
 
 }
 
@@ -233,6 +240,7 @@ img {vertical-align: middle;}
   font-size: 180%;
   margin-right: 20px;
   text-align: center;
+
 }
 
 .lyt-til-eleverne {
@@ -273,7 +281,8 @@ img {vertical-align: middle;}
   
 }
 .overskrift1 {
-  margin-bottom: 10px;
+  float: left;
+ margin-left: 10px;
 margin-left: 40px;
   
 }
@@ -340,13 +349,12 @@ h6 {
 #skilt {
   width: 500px;
 position: center;
-margin-left: 430px;
+
 }
 
 .knap {
   
   padding: 2%;
-   
     border: 4px darkcyan solid;
     border-radius: 1em;
     background-color:darkcyan;
@@ -368,6 +376,7 @@ margin-left: 430px;
 
   font-style:italic;
   padding: 5%;
+  background-color:dodgerblue;
 }
 
 
@@ -422,15 +431,12 @@ margin-left: 430px;
       flex-wrap: wrap;
   }
   #s1 {
-    border: 3px white;
+   
     align-self: center;
     text-align: center;
     margin-top: 2%;
-    background-color: white;
 font-size: 20px;
     font-family:  Helvetica, sans-serif;
-  
-    background-image: url(/images/light-color.png);
     background-repeat: no-repeat;
 
 }
@@ -448,7 +454,7 @@ font-size: 20px;
   
 }
 .text3 {
-font-size: 30px;
+font-size: 22px;
   align-items: center;
   justify-content: center;
 }
@@ -474,6 +480,20 @@ font-size: 30px;
 
   }
 
+.knap {
+ position: center;
+    width: 40%;
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+ 
+}
+.text4 {
+  font-size: 25px;
+    align-items: center;
+    justify-content: center;
+  }
+
 }
 
 @media only screen and (min-width: 480px) {
@@ -495,7 +515,11 @@ font-size: 23px;
   padding-bottom: 70px;
   
 }
-
+.text3 {
+  font-size: 29px;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 
@@ -549,6 +573,9 @@ font-size: 35px;
     position: relative;
     margin-bottom: 30px;
     margin: 15px 15px 15px ;
+  }
+  .text4 {
+  font-size: 45px;
   }
 }
 
