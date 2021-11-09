@@ -102,6 +102,7 @@ p {
 .deko:hover:before {
   transform: translateY(10px)
 }
+
 .container {
   position: relative;
   width: 30%;
@@ -450,16 +451,6 @@ font-size: 30px;
 }
 .text3:hover {
   background-position: 0 5px;
-}
-
-.image2 {
-  display: column;
-  width: 120%;
-  height: auto;
-  padding: 15px;
- margin: -15px;
-  border-radius: 20px;
-
 }
 }
 
