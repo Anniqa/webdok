@@ -272,7 +272,11 @@ img {vertical-align: middle;}
   font-family: Verdana, Geneva, sans-serif;
   
 }
-
+.overskrift1 {
+  margin-bottom: 10px;
+margin-left: 40px;
+  
+}
 
 #play1 {
   display: flex;
@@ -456,9 +460,19 @@ font-size: 30px;
  width: 400px;
   position: center;
   }
-  
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    right: -60px;
+   margin: 7px 7px 7px ;
+    position: center;
+    margin-bottom: 15px;
 
- 
+  }
 
 }
 
@@ -523,6 +537,18 @@ font-size: 35px;
     width: 500px;
   position: center;
   margin-left: 500px;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    right: -480px;
+    position: relative;
+    margin-bottom: 30px;
+    margin: 15px 15px 15px ;
   }
 }
 
