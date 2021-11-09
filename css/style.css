@@ -1,5 +1,7 @@
 body, html {
     height: 100%;
+    margin:auto;
+
 }
 
 p {
@@ -454,15 +456,11 @@ font-size: 20px;
       display: flex;
       flex-wrap: wrap;
   }
-  #s1 {
-
+#s1 {
 font-size: 23px;
     font-family:  Helvetica, sans-serif;
-  
     background-image: url(/images/red.png);
     background-repeat: no-repeat;
-
-
 }
 }
 
