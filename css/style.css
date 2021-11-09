@@ -288,6 +288,7 @@ img {vertical-align: middle;}
 
 .navn {
   margin-left: 15%;
+  font-size: 20px;
 }
 
 
@@ -447,7 +448,19 @@ font-size: 20px;
     background-image: url(/images/red.png);
     background-repeat: no-repeat;
 
-
+}
+.img_elev {
+  width: 10%; 
+  height: auto;
+  margin-left: 20%;
+  padding: 4%;
+}
+#elever {
+  display: table-row;
+  flex-direction: row;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  
 }
 }
 
@@ -461,6 +474,14 @@ font-size: 23px;
     font-family:  Helvetica, sans-serif;
     background-image: url(/images/red.png);
     background-repeat: no-repeat;
+}
+
+#elever {
+  display: flex;
+  flex-direction: row;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  
 }
 }
 
@@ -477,8 +498,19 @@ font-size: 35px;
   
     background-image: url(/images/red.png);
     background-repeat: no-repeat;
-
-
+}
+.img_elev {
+  width: 10%; 
+  height: auto;
+  margin-left: 20%;
+  padding: 4%;
+}
+#elever {
+  display: flex;
+  flex-direction: row;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  
 }
 }
 
