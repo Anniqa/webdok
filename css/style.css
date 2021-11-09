@@ -425,6 +425,7 @@ right: -40px;
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
+  
 }
 
 @media only screen and (min-width: 320px) {
@@ -432,7 +433,20 @@ right: -40px;
       display: flex;
       flex-wrap: wrap;
   }
+  #s1 {
+    border: 3px white;
+    align-self: center;
+    text-align: center;
+    margin-top: 2%;
+    background-color: white;
+font-size: 20px;
+    font-family:  Helvetica, sans-serif;
+  
+    background-image: url(/images/red.png);
+    background-repeat: no-repeat;
 
+
+}
 }
 
 @media only screen and (min-width: 480px) {
@@ -440,7 +454,16 @@ right: -40px;
       display: flex;
       flex-wrap: wrap;
   }
+  #s1 {
 
+font-size: 23px;
+    font-family:  Helvetica, sans-serif;
+  
+    background-image: url(/images/red.png);
+    background-repeat: no-repeat;
+
+
+}
 }
 
 
@@ -449,7 +472,16 @@ right: -40px;
       display: flex;
       flex-wrap: wrap;
   }
+  #s1 {
 
+font-size: 35px;
+    font-family:  Helvetica, sans-serif;
+  
+    background-image: url(/images/red.png);
+    background-repeat: no-repeat;
+
+
+}
 }
 
 @media only screen and (min-width: 1024px) {
