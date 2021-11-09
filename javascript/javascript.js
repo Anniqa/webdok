@@ -130,11 +130,3 @@ function resetPic (picToReset) {
 
  slide();
 
- // Footer
- let runAnimation = function () {
-    animation.classList.add("animate");
-    // Starter funktionen efter et delay på 4000 millisekunder
-    setTimeout(clearClass, 4000);
-}
-// Start animationen ved scroll
-window.addEventListener("scroll", runAnimation);
