@@ -49,7 +49,7 @@ p {
     background-color:white;
     font-family:  Helvetica, sans-serif;
     font-size: 35px;
-    background-image: url(/images/red.png);
+    background-image: url(/images/light-color.png);
     background-repeat: no-repeat;
 
 
@@ -448,7 +448,7 @@ right: -40px;
 font-size: 20px;
     font-family:  Helvetica, sans-serif;
   
-    background-image: url(/images/red.png);
+    background-image: url(/images/light-color.png);
     background-repeat: no-repeat;
 
 }
@@ -507,7 +507,7 @@ font-size: 23px;
 font-size: 35px;
     font-family:  Helvetica, sans-serif;
   
-    background-image: url(/images/red.png);
+    background-image: url(/images/light-color.png);
     background-repeat: no-repeat;
 }
 .img_elev {
