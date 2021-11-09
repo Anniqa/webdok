@@ -451,6 +451,11 @@ font-size: 30px;
 .text3:hover {
   background-position: 0 5px;
 }
+#skilt {
+ margin: 50px;
+ width: 400px;
+  position: center;
+  }
 }
 
 @media only screen and (min-width: 480px) {
@@ -472,6 +477,7 @@ font-size: 23px;
   padding-bottom: 70px;
   
 }
+
 }
 
 
@@ -509,7 +515,11 @@ font-size: 35px;
   .text3:hover {
     background-position: 0 11px;
   }
-  
+  #skilt {
+    width: 500px;
+  position: center;
+  margin-left: 500px;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
