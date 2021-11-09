@@ -1,6 +1,7 @@
-body, html {
-    height: 100%;
-    margin:auto;
+body,
+html {
+  height: 100%;
+  margin: auto;
 
 }
 
@@ -15,46 +16,50 @@ p {
 
 }
 
-.p{
-  font-family: "Lucida Console", "Courier New", monospace; 
+.p {
+  font-family: "Lucida Console", "Courier New", monospace;
 }
+
 #s1 {
-    border: 3px white;
-    align-self: center;
-    text-align: center;
-    margin-top: 2%;
-    padding: 1.2%;
-    background-color:white;
-    font-family:  Helvetica, sans-serif;
-    font-size: 35px;
-    background-image: url(/images/light-color.png);
-    background-repeat: no-repeat;
+  border: 3px white;
+  align-self: center;
+  text-align: center;
+  margin-top: 2%;
+  padding: 1.2%;
+  background-color: white;
+  font-family: Helvetica, sans-serif;
+  font-size: 35px;
+  background-image: url(/images/light-color.png);
+  background-repeat: no-repeat;
 
 
 }
+
 #s2 {
-    border: 6px solid slategray;
-    align-self: center;
-    margin-top: 2%;
-    padding: 1.2%;
-    background-color:slategray;
+  border: 6px solid slategray;
+  align-self: center;
+  margin-top: 2%;
+  padding: 1.2%;
+  background-color: slategray;
 }
+
 #s7 {
   align-self: center;
   text-align: center;
   margin-top: 2%;
   padding: 0.1%;
-  font-family:  Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
   font-size: 35px;
 
 }
+
 #s3 {
-    align-self: center;
-    text-align: center;
-    margin-top: 2%;
-    padding: 0.1%;
-    font-family:  Helvetica, sans-serif;
-    font-size: 35px;
+  align-self: center;
+  text-align: center;
+  margin-top: 2%;
+  padding: 0.1%;
+  font-family: Helvetica, sans-serif;
+  font-size: 35px;
 
 }
 
@@ -71,7 +76,7 @@ p {
   position: relative;
   display: inline-block;
   font-size: 50px;
-  background: linear-gradient(to bottom, black,black  60%,black 60%,black 100%);
+  background: linear-gradient(to bottom, black, black 60%, black 60%, black 100%);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -90,7 +95,7 @@ p {
   left: 0;
   right: 0;
   height: 20px;
-  background:rgba(118, 147, 241, 0.411);
+  background: rgba(118, 147, 241, 0.411);
   bottom: 5px;
   transition: all 0.2s ease-out;
 }
@@ -102,6 +107,7 @@ p {
 .deko:hover:before {
   transform: translateY(10px)
 }
+
 .container {
   position: relative;
   width: 30%;
@@ -109,7 +115,7 @@ p {
   float: left;
   padding: 2%;
   margin-left: 2%;
- 
+
 }
 
 .image2 {
@@ -117,7 +123,7 @@ p {
   width: 120%;
   height: auto;
   padding: 15px;
- margin: -15px;
+  margin: -15px;
   border-radius: 20px;
 
 }
@@ -131,7 +137,7 @@ p {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: rgb(192, 197, 214);
+  background-color: #d5ee3f;
   border-radius: 20px;
 }
 
@@ -151,21 +157,31 @@ p {
   text-align: center;
   line-height: 130%;
 }
-  
 
 #s4 {
-   
-    align-self: center;
-    margin-top: 2%;
-    padding: 1.2%;
+
+  align-self: center;
+  margin-top: 2%;
+  padding: 1.2%;
 
 }
 
 
-* {box-sizing: border-box;}
-body {font-family: Verdana, sans-serif;}
-.mySlides {display: none;}
-img {vertical-align: middle;}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+}
+
+.mySlides {
+  display: none;
+}
+
+img {
+  vertical-align: middle;
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -216,13 +232,23 @@ img {vertical-align: middle;}
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
 }
 
 @keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
 }
 
 /* sektion 4 omkring elever */
@@ -259,7 +285,7 @@ img {vertical-align: middle;}
 }
 
 .img_elev {
-  width: 10%; 
+  width: 10%;
   height: auto;
   margin-left: 20%;
   padding: 4%;
@@ -269,7 +295,7 @@ img {vertical-align: middle;}
   margin-left: 7%;
   font-size: 20px;
   font-family: Verdana, Geneva, sans-serif;
-  
+
 }
 
 
@@ -302,7 +328,7 @@ img {vertical-align: middle;}
   flex-direction: row;
   padding-top: 70px;
   padding-bottom: 70px;
-  
+
 }
 
 .arrow {
@@ -332,13 +358,15 @@ h6 {
   margin: 16px;
   line-height: 1.5;
 }
+
 #skilt {
   width: 500px;
-position: center;
-margin-left: 550px;
+  position: center;
+  margin-left: 550px;
 
-  
+
 }
+
 .button {
   border: none;
   color: solid, 2px black;
@@ -356,10 +384,12 @@ margin-left: 550px;
 
 .button1 {
   background-color: darkcyan;
-right: -40px;
+  right: -40px;
   position: relative;
 
-} /* color */
+}
+
+/* color */
 
 .fa {
   padding: 20px;
@@ -389,11 +419,11 @@ right: -40px;
 
 @keyframes example {
   from {
-      transform: translateX(-350px)
+    transform: translateX(-350px)
   }
 
   to {
-      transform: translateX(750px)
+    transform: translateX(750px)
   }
 }
 
@@ -408,114 +438,127 @@ right: -40px;
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
-  
+  .text {
+    font-size: 11px
+  }
+
 }
 
 @media only screen and (min-width: 320px) {
   #flex {
-      display: flex;
-      flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
   }
+
   #s1 {
     border: 3px white;
     align-self: center;
     text-align: center;
     margin-top: 2%;
     background-color: white;
-font-size: 20px;
-    font-family:  Helvetica, sans-serif;
-  
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+
     background-image: url(/images/light-color.png);
     background-repeat: no-repeat;
 
-}
-.img_elev {
-  width: 10%; 
-  height: auto;
-  margin-left: 20%;
-  padding: 4%;
-}
-#elever {
-  display: table-row;
-  flex-direction: row;
-  padding-top: 70px;
-  padding-bottom: 70px;
-  
-}
-.text3 {
-font-size: 30px;
-  align-items: center;
-  justify-content: center;
-}
-.text3:hover {
-  background-position: 0 5px;
-}
+  }
 
-.image2 {
-  display: column;
-  width: 120%;
-  height: auto;
-  padding: 15px;
- margin: -15px;
-  border-radius: 20px;
+  .img_elev {
+    width: 10%;
+    height: auto;
+    margin-left: 20%;
+    padding: 4%;
+  }
 
-}
+  #elever {
+    display: table-row;
+    flex-direction: row;
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+  }
+
+  .text3 {
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .text3:hover {
+    background-position: 0 5px;
+  }
+
+  .image2 {
+    display: column;
+    width: 120%;
+    height: auto;
+    padding: 15px;
+    margin: -15px;
+    border-radius: 20px;
+
+  }
 }
 
 @media only screen and (min-width: 480px) {
   #flex {
-      display: flex;
-      flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
   }
-#s1 {
-font-size: 23px;
-    font-family:  Helvetica, sans-serif;
+
+  #s1 {
+    font-size: 23px;
+    font-family: Helvetica, sans-serif;
     background-image: url(/images/red.png);
     background-repeat: no-repeat;
-}
+  }
 
-#elever {
-  display: flex;
-  flex-direction: row;
-  padding-top: 70px;
-  padding-bottom: 70px;
-  
-}
+  #elever {
+    display: flex;
+    flex-direction: row;
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+  }
 }
 
 
 @media only screen and (min-width: 768px) {
   #flex {
-      display: flex;
-      flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
   }
+
   #s1 {
 
-font-size: 35px;
-    font-family:  Helvetica, sans-serif;
-  
+    font-size: 35px;
+    font-family: Helvetica, sans-serif;
+
     background-image: url(/images/light-color.png);
     background-repeat: no-repeat;
-}
-.img_elev {
-  width: 10%; 
-  height: auto;
-  margin-left: 20%;
-  padding: 4%;
-}
-#elever {
-  display: flex;
-  flex-direction: row;
-  padding-top: 70px;
-  padding-bottom: 70px;
-  
-}
-.text3 {
-  font-size: 50px;
+  }
+
+  .img_elev {
+    width: 10%;
+    height: auto;
+    margin-left: 20%;
+    padding: 4%;
+  }
+
+  #elever {
+    display: flex;
+    flex-direction: row;
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+  }
+
+  .text3 {
+    font-size: 50px;
     align-items: center;
     justify-content: center;
   }
+
   .text3:hover {
     background-position: 0 11px;
   }
@@ -523,7 +566,7 @@ font-size: 35px;
 
 @media only screen and (min-width: 1024px) {
   #flex {
-      display: flex;
-      flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
   }
 }
