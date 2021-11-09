@@ -473,6 +473,16 @@ font-size: 30px;
 .text3:hover {
   background-position: 0 5px;
 }
+
+.image2 {
+  display: flow-root;
+  width: 120%;
+  height: auto;
+  padding: 15px;
+ margin: -15px;
+  border-radius: 20px;
+
+}
 }
 
 @media only screen and (min-width: 480px) {
