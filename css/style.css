@@ -475,7 +475,7 @@ font-size: 30px;
 }
 
 .image2 {
-  display: flow-root;
+  display: column;
   width: 120%;
   height: auto;
   padding: 15px;
