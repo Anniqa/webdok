@@ -347,8 +347,16 @@ h6 {
   line-height: 1.5;
 }
 #skilt {
-  width: 500px;
+  max-width: 100%;
 position: center;
+display: none;
+
+
+}
+
+#skiltmobil {
+  position: center;
+  display: block;
 
 }
 
@@ -465,6 +473,7 @@ font-size: 22px;
  margin: 50px;
  width: 400px;
   position: center;
+  
   }
   .fa {
     padding: 20px;
@@ -500,6 +509,13 @@ font-size: 22px;
     text-align: center;
     margin-right: 5px;
   }
+
+  #skiltmobil {
+    display: block;
+    position: relative;
+    right: 82px;
+    
+  }
 }
 
 @media only screen and (min-width: 480px) {
@@ -525,6 +541,13 @@ font-size: 23px;
   font-size: 29px;
     align-items: center;
     justify-content: center;
+  }
+
+  #skiltmobil {
+    display: block;
+    position: relative;
+    right: -62px;
+    
   }
 }
 
@@ -582,6 +605,17 @@ font-size: 35px;
   }
   .text4 {
   font-size: 45px;
+  }
+
+  #skiltmobil {
+    position: center;
+    display: none;
+  
+
+  }
+
+  #skilt {
+    display: block;
   }
 }
 
