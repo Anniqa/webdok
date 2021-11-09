@@ -349,7 +349,7 @@ h6 {
   line-height: 1.5;
 }
 #skilt {
-  width: 300px;
+  width: 500px;
 position: center;
 margin-left: 550px;
 
@@ -409,7 +409,7 @@ right: -40px;
   }
 
   to {
-      transform: translateX(1450px)
+      transform: translateX(750px)
   }
 }
 
@@ -417,7 +417,7 @@ right: -40px;
 .animate {
   position: relative;
   animation-name: example;
-  animation-duration: 10s;
+  animation-duration: 7s;
   animation-iteration-count: infinite;
 
 }
