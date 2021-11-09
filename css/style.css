@@ -411,14 +411,6 @@ margin-left: 430px;
   }
 }
 
-/* Class kaldes og arbejdes videre med i javascript */
-.animate {
-  position: relative;
-  animation-name: example;
-  animation-duration: 7s;
-  animation-iteration-count: infinite;
-
-}
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
