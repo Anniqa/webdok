@@ -336,10 +336,9 @@ h6 {
 #skilt {
   width: 500px;
 position: center;
-margin-left: 550px;
-
-  
+margin-left: 430px;
 }
+
 .button {
   border: none;
   color: solid, 2px black;
@@ -351,7 +350,7 @@ margin-left: 550px;
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 10px;
-  margin-left: 550px;
+  margin-left: 430px;
   margin-top: 25px;
 }
 
@@ -369,7 +368,7 @@ right: -40px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
-  right: -590px;
+  right: -480px;
   position: relative;
 }
 
