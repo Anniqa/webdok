@@ -339,27 +339,28 @@ position: center;
 margin-left: 430px;
 }
 
-.button {
-  border: none;
-  color: solid, 2px black;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 10px;
-  margin-left: 430px;
-  margin-top: 25px;
+.knap {
+  
+  padding: 2%;
+   
+    border: 4px darkcyan solid;
+    border-radius: 1em;
+    background-color:darkcyan;
+    width: 30%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
 }
 
-.button1 {
-  background-color: darkcyan;
-right: -40px;
-  position: relative;
 
-} /* color */
+
+.knap a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
 
 .fa {
   padding: 20px;
