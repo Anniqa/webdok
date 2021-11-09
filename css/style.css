@@ -10,33 +10,11 @@ p {
 }
 
 
-/* The hero image */
 .image1 {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image:  url(/images/top.jpg);
-
-  /* Set a specific height */
   width: 100%;
-  height: 100%;
 
-  /* Position and center the image to scale nicely on all screens */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
 }
-/* Place text in the middle of the image */
-.image-text1 {
-  text-align: center;
-  position: absolute;
-  top: 20%;
-  left: 35%;
-  color:black;
-  font-family:  Helvetica, sans-serif;
-  text-shadow: 1px 2px gray;
-  font-size: 50px;
-  text-align: center;
-}
+
 .p{
   font-family: "Lucida Console", "Courier New", monospace; 
 }
@@ -49,7 +27,7 @@ p {
     background-color:white;
     font-family:  Helvetica, sans-serif;
     font-size: 35px;
-    background-image: url(/images/red.png);
+    background-image: url(/images/light-color.png);
     background-repeat: no-repeat;
 
 
@@ -448,7 +426,7 @@ right: -40px;
 font-size: 20px;
     font-family:  Helvetica, sans-serif;
   
-    background-image: url(/images/red.png);
+    background-image: url(/images/light-color.png);
     background-repeat: no-repeat;
 
 }
@@ -517,7 +495,7 @@ font-size: 23px;
 font-size: 35px;
     font-family:  Helvetica, sans-serif;
   
-    background-image: url(/images/red.png);
+    background-image: url(/images/light-color.png);
     background-repeat: no-repeat;
 }
 .img_elev {
