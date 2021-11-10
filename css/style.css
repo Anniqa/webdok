@@ -12,6 +12,12 @@ body, html {
 p {
   padding: 2%;
   line-height: 50px;
+
+}
+
+#info {
+  margin: 2%;
+  line-height: 50px;
 }
 
 
@@ -155,10 +161,8 @@ p {
   
 
 #s4 {
-   
-    align-self: center;
-    padding: 1.2%;
-  
+  display: block;
+}
    
 
 }
@@ -171,10 +175,7 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
   position: relative;
-  margin: auto;
-  margin-top: 5%;
 }
 
 
@@ -316,6 +317,13 @@ img {vertical-align: middle;}
   
 }
 
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2%;
+}
+
 .arrow {
   width: 50px;
   position: relative;
@@ -343,13 +351,7 @@ h6 {
   margin: 16px;
   line-height: 1.5;
 }
-#skilt {
-  display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 2%;
 
-}
 
 .knap {
   
