@@ -161,10 +161,8 @@ p {
   
 
 #s4 {
-   
-    align-self: center;
-    padding: 1.2%;
-  
+  display: block;
+}
    
 
 }
@@ -177,10 +175,7 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
   position: relative;
-  margin: auto;
-  margin-top: 5%;
 }
 
 
