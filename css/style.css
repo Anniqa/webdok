@@ -166,6 +166,7 @@ p {
    
 
 
+
 * {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
 .mySlides {display: none;}
@@ -354,9 +355,9 @@ h6 {
 .knap {
   
   padding: 2%;
-    border: 4px darkcyan solid;
+    border: 4px #2E2E59;
     border-radius: 1em;
-    background-color:darkcyan;
+    background-color:#2E2E59;
     width: 30%;
     text-align: center;
     display: block;
