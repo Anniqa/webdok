@@ -386,31 +386,22 @@ display: none;
 
 
 
-
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 70px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-  right: -480px;
-  position: relative;
-}
-
 .fa-facebook {
   background: #3B5998;
   color: white;
+  justify-content: center;
 }
 
 .fa-youtube {
   background: #bb0000;
   color: white;
+  text-align: center;
 }
 
 .fa-instagram {
   background: #125688;
   color: white;
+  text-align: center;
 }
 
 @keyframes example {
@@ -454,8 +445,6 @@ font-size: 20px;
 #elever {
   display: table-row;
   flex-direction: row;
-  padding-top: 70px;
-  padding-bottom: 70px;
   
 }
 .text3 {
@@ -483,7 +472,6 @@ font-size: 22px;
    margin: 7px 7px 7px ;
     position: center;
     margin-bottom: 15px;
-
   }
 
 .knap {
@@ -530,8 +518,7 @@ font-size: 23px;
 #elever {
   display: flex;
   flex-direction: row;
-  padding-top: 70px;
-  padding-bottom: 70px;
+
   
 }
 .text3 {
@@ -571,8 +558,7 @@ font-size: 35px;
 #elever {
   display: flex;
   flex-direction: row;
-  padding-top: 70px;
-  padding-bottom: 70px;
+
   
 }
 .text3 {
