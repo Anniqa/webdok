@@ -344,16 +344,12 @@ h6 {
   line-height: 1.5;
 }
 #skilt {
-  max-width: 100%;
-position: center;
-display: none;
-
-
-}
-
-#skiltmobil {
-  position: center;
   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+
+
 
 }
 
@@ -390,18 +386,21 @@ display: none;
   background: #3B5998;
   color: white;
   justify-content: center;
+  margin: 0 auto;
 }
 
 .fa-youtube {
   background: #bb0000;
   color: white;
   text-align: center;
+  margin: 0 auto;
 }
 
 .fa-instagram {
   background: #125688;
   color: white;
   text-align: center;
+  margin: 0 auto;
 }
 
 @keyframes example {
@@ -455,12 +454,7 @@ font-size: 22px;
 .text3:hover {
   background-position: 0 5px;
 }
-#skilt {
- margin: 50px;
- width: 400px;
-  position: center;
-  
-  }
+
   .fa {
     padding: 20px;
     font-size: 30px;
@@ -493,13 +487,6 @@ font-size: 22px;
     text-align: center;
     margin-right: 5px;
   }
-
-  #skiltmobil {
-    display: block;
-    position: relative;
-    right: 82px;
-    
-  }
 }
 
 @media only screen and (min-width: 480px) {
@@ -524,13 +511,6 @@ font-size: 23px;
   font-size: 29px;
     align-items: center;
     justify-content: center;
-  }
-
-  #skiltmobil {
-    display: block;
-    position: relative;
-    right: -62px;
-    
   }
 }
 
@@ -568,26 +548,11 @@ font-size: 35px;
   .text3:hover {
     background-position: 0 11px;
   }
-  #skilt {
-    width: 500px;
-  position: center;
-  margin-left: 500px;
-  }
 
   .text4 {
   font-size: 45px;
   }
 
-  #skiltmobil {
-    position: center;
-    display: none;
-  
-
-  }
-
-  #skilt {
-    display: block;
-  }
 }
 
 @media only screen and (min-width: 1024px) {
