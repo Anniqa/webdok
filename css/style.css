@@ -521,8 +521,7 @@ font-size: 23px;
     justify-content: center;
   }
 
-<<<<<<< HEAD
-=======
+
   #logo {
     display: block;
     margin-left: auto;
@@ -531,8 +530,7 @@ font-size: 23px;
     width: 80%;
   }
 
->>>>>>> 3ad8bf035829954015ab79417e35cd0c788f503f
-}
+
 
 
 @media only screen and (min-width: 768px) {
@@ -581,4 +579,5 @@ font-size: 35px;
   }
   #info{
     background-image: url("/images/danser.png");}
+}
 }
