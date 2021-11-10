@@ -281,9 +281,7 @@ img {vertical-align: middle;}
   
 }
 .overskrift1 {
-  float: left;
- margin-left: 10px;
-margin-left: 40px;
+  text-align: center;
   
 }
 
@@ -314,8 +312,7 @@ margin-left: 40px;
 #elever {
   display: flex;
   flex-direction: row;
-  padding-top: 70px;
-  padding-bottom: 70px;
+  
   
 }
 
