@@ -521,6 +521,17 @@ font-size: 23px;
     justify-content: center;
   }
 
+<<<<<<< HEAD
+=======
+  #logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    width: 80%;
+  }
+
+>>>>>>> 3ad8bf035829954015ab79417e35cd0c788f503f
 }
 
 
