@@ -17,7 +17,6 @@ p {
 #info {
   margin: 2%;
   line-height: 50px;
-  background-image: url("/images/danser.png");
   background-attachment: relative;
   background-position: right;
   background-repeat: no-repeat;
@@ -521,6 +520,7 @@ font-size: 23px;
     align-items: center;
     justify-content: center;
   }
+
 }
 
 
@@ -561,7 +561,6 @@ font-size: 35px;
   .text4 {
   font-size: 45px;
   }
-
 }
 
 @media only screen and (min-width: 1024px) {
@@ -569,4 +568,6 @@ font-size: 35px;
       display: flex;
       flex-wrap: wrap;
   }
+  #info{
+    background-image: url("/images/danser.png");}
 }
