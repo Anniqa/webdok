@@ -3,7 +3,6 @@ body, html {
     margin:auto;
 }
 
-
 #footer
 {
   background-color: #BE0093;
@@ -51,7 +50,8 @@ p {
   padding: 0.1%;
   font-family:  Helvetica, sans-serif;
   font-size: 35px;
-  background-color: blueviolet;
+  background-color:#2E2E59;
+  color: white;
 
 }
 #s3 {
@@ -60,6 +60,8 @@ p {
     padding: 0.1%;
     font-family:  Helvetica, sans-serif;
     font-size: 35px;
+    color: white;
+  
    
 
 }
@@ -70,6 +72,7 @@ p {
   width: 100%;
   align-items: center;
   justify-content: center;
+  color: white;
 }
 
 .text3 {
@@ -82,12 +85,13 @@ p {
   -webkit-background-clip: text;
   color: transparent;
   background-repeat: no-repeat;
-  transition: background 0.2s ease-out;
+  transition: 0.2s ease-out;
   white-space: nowrap;
 }
 
 .deko {
   position: relative;
+ 
 }
 
 .deko:before {
@@ -335,7 +339,8 @@ h6 {
   font-size: 20px;
   font-family: Verdana, Geneva, sans-serif;
   text-align: center;
-  margin: 30px;
+  margin: 1%;
+  margin-top: 2%;
 }
 
 .array p {
@@ -371,7 +376,7 @@ h6 {
 
   font-style:italic;
   padding: 5%;
-  background-color:dodgerblue;
+  background-color:#2E2E59;
 }
 
 #social {
