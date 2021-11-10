@@ -380,6 +380,12 @@ h6 {
   background-color:dodgerblue;
 }
 
+#social {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .fa-facebook {
   background: #3B5998;
